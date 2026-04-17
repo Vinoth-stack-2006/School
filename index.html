@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Little Stars</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800;900&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <span>📍 Kulathupalayam, Thondamuthur, Coimbatore – 641109</span>
+  <div class="topbar-right">
+    <a href="tel:8610085225">📞 86100 85225</a>
+    <a href="tel:9944979754">📞 99449 79754</a>
+    <a href="mailto:devlittlestars@gmail.com">✉ devlittlestars@gmail.com</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-icon"><img src="images/logo.png" alt="Dev Little Stars Logo" width="150%"></div>
+    <div class="nav-logo-text">
+      Dev Little Stars
+      <small>Play School & Daycare</small>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#programs">Programs</a></li>
+    <li><a href="#methods">Methods</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#vision">Vision</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Enroll Now ✨</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()" id="ham">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMenu()">About Us</a>
+  <a href="#programs" onclick="closeMenu()">Programs</a>
+  <a href="#methods" onclick="closeMenu()">Learning Methods</a>
+  <a href="#gallery" onclick="closeMenu()">Gallery</a>
+  <a href="#vision" onclick="closeMenu()">Our Vision</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+  <a href="#contact" class="mcta" onclick="closeMenu()">✨ Enroll Now</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-blob1"></div>
+  <div class="hero-blob2"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-badge">🌟 Now Enrolling 2025–26</div>
+      <h1>Where Little Stars<br><span class="grad">Shine & Grow!</span></h1>
+      <p class="hero-sub">
+        A warm, safe, and joyful playschool & daycare in Coimbatore where your child learns, plays, and blossoms every single day with <strong>love, care and laughter.</strong>
+      </p>
+      <div class="hero-features">
+        <div class="h-feat">🧒 Ages 1.5–4 yrs</div>
+        <div class="h-feat">🏫 Safe Environment</div>
+        <div class="h-feat">👩‍🏫 Trained Teachers</div>
+        <div class="h-feat">🎨 Creative Learning</div>
+        <div class="h-feat">🕐 Flexible Timings</div>
+      </div>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-p">🎓 Enroll Today</a>
+        <a href="#programs" class="btn btn-o">Explore Programs</a>
+      </div>
+    </div>
+    <div class="hero-mosaic">
+      <div class="h-img tall">
+        <img src="images/img1.jpg" alt="Story Time">
+      </div>
+      <div class="h-img">
+        <img src="images/img3.jpg" alt="Story Time">
+      </div>
+      <div class="h-img">
+        <img src="images/img8.jpg" alt="Story Time">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stats-inner">
+    <div class="stat"><span class="stat-n">1.5–4</span><div class="stat-l">Years Age Group</div></div>
+    <div class="stat"><span class="stat-n">3</span><div class="stat-l">Learning Methods</div></div>
+    <div class="stat"><span class="stat-n">LKG–12</span><div class="stat-l">Special Tuition</div></div>
+    <div class="stat"><span class="stat-n">100%</span><div class="stat-l">Safe & Nurturing</div></div>
+    <div class="stat"><span class="stat-n">Mon–Sat</span><div class="stat-l">8 AM – 6 PM</div></div>
+  </div>
+</div>
+
+<!-- NOTICE BAND -->
+<div class="notice">
+  🎉 Admissions Open! Limited seats for 2025–26 &nbsp;·&nbsp; Walk-ins Welcome! &nbsp;·&nbsp; Call us: 86100 85225
+</div>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-photos fi">
+        <div class="ap wide">
+          <img src="images/img5.jpg" alt="Story Time">
+        </div>
+        <div class="ap">
+          <img src="images/img6.jpg" alt="Story Time">
+        </div>
+        <div class="ap">
+          <img src="images/img2.jpg" alt="Story Time">
+        </div>
+      </div>
+      <div class="fi">
+        <div class="tag">About Us</div>
+        <div class="sh">A Second Home for <span>Your Little One</span></div>
+        <p class="sd" style="margin-bottom:16px">Dev Little Stars is a warm, nurturing playschool and daycare in Kulathupalayam, Thondamuthur, Coimbatore — dedicated to creating a joyful and safe space where young children learn, explore, and grow.</p>
+        <div class="about-text">
+          <p>Our thoughtfully designed curriculum blends three proven early learning approaches — Froebel, Montessori, and Play-Based Learning — ensuring every child experiences holistic development through creativity, hands-on activities, and meaningful play.</p>
+          <p>With small group sizes, personalized attention, and passionate educators, every child receives the love and guidance they truly deserve. We treat your child as our own.</p>
+        </div>
+        <div class="about-quote">
+          <p>"Every child is a star — we just help them shine brighter every single day." ✨</p>
+        </div>
+        <div class="pills">
+          <span class="pill po">🌱 Froebel Approach</span>
+          <span class="pill pb">🔵 Montessori Method</span>
+          <span class="pill pg">🎮 Play-Based Learning</span>
+          <span class="pill pp">💛 Holistic Development</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section class="section programs-bg" id="programs">
+  <div class="section-inner">
+    <div class="fi sh-center">
+      <div class="tag">Our Programs</div>
+      <div class="sh">What We <span>Offer</span></div>
+      <p class="sd">Thoughtfully designed programs for your child's early years — and beyond.</p>
+    </div>
+    <div class="cards-grid">
+      <div class="card fi">
+        <div class="card-top-bar"></div>
+        <div class="card-icon ci-orange">🧒</div>
+        <h3>Play School</h3>
+        <p>For children aged 1.5 to 4 years. Structured play, early learning, and social development in a loving, stimulating environment designed just for little explorers.</p>
+        <div class="card-badge">Ages 1.5–4 years</div>
+      </div>
+      <div class="card fi">
+        <div class="card-top-bar"></div>
+        <div class="card-icon ci-blue">🌙</div>
+        <h3>Daycare</h3>
+        <p>Flexible, nurturing daycare with trained caregivers so parents can work worry-free. Full-day or half-day options with meals, nap time and fun activities.</p>
+        <div class="card-badge">Full/Half Day</div>
+      </div>
+      <div class="card fi">
+        <div class="card-top-bar"></div>
+        <div class="card-icon ci-green">📚</div>
+        <h3>Special Tuition</h3>
+        <p>Expert tutoring from LKG to 12th Standard for both Matric and CBSE boards. Personalized learning support that builds confidence and academic excellence.</p>
+        <div class="card-badge">LKG – 12th Std</div>
+      </div>
+      <div class="card fi">
+        <div class="card-top-bar"></div>
+        <div class="card-icon ci-yellow">🎨</div>
+        <h3>Creative Activities</h3>
+        <p>Art, music, craft, and imaginative play that spark creativity and build confidence in every child. Daily creative sessions that children absolutely love.</p>
+        <div class="card-badge">Daily Sessions</div>
+      </div>
+      <div class="card fi">
+        <div class="card-top-bar"></div>
+        <div class="card-icon ci-purple">🤝</div>
+        <h3>Social Skills</h3>
+        <p>Group activities and collaborative play teaching children to share, communicate, empathize, and build meaningful friendships that last a lifetime.</p>
+        <div class="card-badge">Group Learning</div>
+      </div>
+      <div class="card fi">
+        <div class="card-top-bar"></div>
+        <div class="card-icon ci-pink">🛝</div>
+        <h3>Safe Play Area</h3>
+        <p>Child-friendly indoor and outdoor play spaces designed for safe, joyful exploration. Educational wall decals, soft flooring, and age-appropriate equipment.</p>
+        <div class="card-badge">Indoor & Outdoor</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="section why-section">
+  <div class="section-inner">
+    <div class="fi sh-center">
+      <div class="tag">Why Choose Us</div>
+      <div class="sh">Why Parents <span>Love Us</span></div>
+      <p class="sd">We go beyond just childcare — we create experiences that shape happy, confident, and curious little humans.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card fi">
+        <span class="why-icon">🏠</span>
+        <h3>Home-Like Atmosphere</h3>
+        <p>Our warm, welcoming space feels just like home — children settle in quickly and feel secure, loved, and happy every single day.</p>
+      </div>
+      <div class="why-card fi">
+        <span class="why-icon">👩‍🏫</span>
+        <h3>Expert Educators</h3>
+        <p>Our qualified and passionate teachers use child-centred approaches to nurture each child's unique strengths and learning style.</p>
+      </div>
+      <div class="why-card fi">
+        <span class="why-icon">🔒</span>
+        <h3>100% Safe Environment</h3>
+        <p>CCTV monitored premises, trained staff, hygienic facilities, and strict safety protocols ensure complete peace of mind for parents.</p>
+      </div>
+      <div class="why-card fi">
+        <span class="why-icon">🍎</span>
+        <h3>Nutritious Meals</h3>
+        <p>Healthy, home-style meals and snacks prepared fresh daily. We ensure your child is well-nourished and energized throughout the day.</p>
+      </div>
+      <div class="why-card fi">
+        <span class="why-icon">📱</span>
+        <h3>Parent Updates</h3>
+        <p>Regular updates, photos, and progress reports shared with parents so you always know how your little star is doing.</p>
+      </div>
+      <div class="why-card fi">
+        <span class="why-icon">💰</span>
+        <h3>Affordable Fees</h3>
+        <p>Premium quality early education at fees that are accessible. Flexible payment plans available for families who need them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEARNING METHODS -->
+<section class="section" id="methods">
+  <div class="section-inner">
+    <div class="fi sh-center">
+      <div class="tag">Our Approach</div>
+      <div class="sh">3 Proven <span>Learning Methods</span></div>
+      <p class="sd">We blend the world's best early childhood education philosophies to give your child the strongest possible start in life.</p>
+    </div>
+    <div class="methods-grid">
+      <div class="method-card mc-froebel fi">
+        <div class="method-num">01</div>
+        <span class="method-emoji">🌱</span>
+        <h3>Froebel Approach</h3>
+        <p>Based on Friedrich Froebel's philosophy that children learn best through play, creativity, and connection with nature.</p>
+        <ul class="method-list ml-o">
+          <li>Hands-on exploration with natural materials</li>
+          <li>Songs, movement & outdoor play</li>
+          <li>Nurtures imagination & creativity</li>
+          <li>Child-led discovery activities</li>
+        </ul>
+      </div>
+      <div class="method-card mc-montessori fi">
+        <div class="method-num">02</div>
+        <span class="method-emoji">🔵</span>
+        <h3>Montessori Method</h3>
+        <p>Dr. Maria Montessori's approach focuses on independence, freedom within structure, and respect for the child's natural development.</p>
+        <ul class="method-list ml-b">
+          <li>Self-paced, independent learning</li>
+          <li>Specially designed learning materials</li>
+          <li>Mixed-age group interaction</li>
+          <li>Builds concentration & discipline</li>
+        </ul>
+      </div>
+      <div class="method-card mc-play fi">
+        <div class="method-num">03</div>
+        <span class="method-emoji">🎮</span>
+        <h3>Play-Based Learning</h3>
+        <p>Research-backed approach where children develop cognitive, social and emotional skills through purposeful, joyful play.</p>
+        <ul class="method-list ml-g">
+          <li>Role-play & dramatic activities</li>
+          <li>Collaborative group games</li>
+          <li>Story-telling & language development</li>
+          <li>Problem-solving through play</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="section-inner">
+    <div class="fi sh-center" style="margin-bottom:40px">
+      <div class="tag">Gallery</div>
+      <div class="sh">Happy Moments at <span>Dev Little Stars</span></div>
+      <p class="sd">Every day is filled with smiles, learning, and beautiful memories we cherish forever.</p>
+    </div>
+    <div class="gal-grid fi">
+      <div class="gi tall">
+        <img src="images/img4.jpg" alt="Story Time">
+        <div class="gi-ov"><span>🛝 Playtime Fun</span></div>
+      </div>
+      <div class="gi wide">
+        <img src="images/img3.jpg" alt="Story Time">
+        <div class="gi-ov"><span>👫 Making Friends</span></div>
+      </div>
+      <div class="gi">
+        <img src="images/img8.jpg" alt="Story Time">
+        <div class="gi-ov"><span>🎨 Creative Time</span></div>
+      </div>
+      <div class="gi">
+        <img src="images/img2.jpg" alt="Story Time">
+        <div class="gi-ov"><span>📚 Story Time</span></div>
+      </div>
+      <div class="gi">
+        <img src="images/img6.jpg" alt="Story Time">
+        <div class="gi-ov"><span>🌟 Star Moments</span></div>
+      </div>
+      <div class="gi">
+        <img src="images/img1.jpg" alt="Story Time">
+        <div class="gi-ov"><span>😊 Pure Joy</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VISION -->
+<section class="section why-section" id="vision">
+  <div class="section-inner">
+    <div class="fi sh-center">
+      <div class="tag">Our Vision</div>
+      <div class="sh">Building Bright <span>Futures</span></div>
+      <p class="sd">Our vision guides everything we do — from how we greet your child each morning to the experiences we design for their growth.</p>
+    </div>
+    <div class="vision-grid" style="margin-top:48px">
+      <div class="v-card fi">
+        <div class="v-num">01</div>
+        <div><strong>A Safe & Loving Space</strong><p>Create a warm, safe, and joyful space where every child feels truly loved, valued, and completely secure every single day they are with us.</p></div>
+      </div>
+      <div class="v-card fi">
+        <div class="v-num">02</div>
+        <div><strong>Spark Curiosity & Creativity</strong><p>Inspire curiosity and creativity through beautifully designed play-based learning experiences that children are naturally drawn to and love.</p></div>
+      </div>
+      <div class="v-card fi">
+        <div class="v-num">03</div>
+        <div><strong>Confident & Independent Children</strong><p>Nurture confidence, independence, and self-expression in every unique, talented child — helping them believe in themselves from a young age.</p></div>
+      </div>
+      <div class="v-card fi">
+        <div class="v-num">04</div>
+        <div><strong>Lifelong Learning Foundation</strong><p>Support holistic development of mind, body, and heart — building a strong foundation for lifelong learning, happiness, and success.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-bg" id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="fi">
+        <div class="tag">Get in Touch</div>
+        <div class="sh">Come Visit <span>Us!</span></div>
+        <p class="sd" style="margin-bottom:26px">We'd love to show you around and introduce your little star to their new happy place. Walk-ins are always welcome — no appointment needed!</p>
+        <div class="c-items">
+          <div class="ci">
+            <div class="ci-ico">📍</div>
+            <div class="ci-body">
+              <strong>Our Address</strong>
+              <span>144, Anandharamakrishna Nagar, Opp. Nana Nani,<br>Kulathupalayam, Thondamuthur, Coimbatore – 641109</span>
+            </div>
+          </div>
+          <div class="ci">
+            <div class="ci-ico">📞</div>
+            <div class="ci-body">
+              <strong>Phone Numbers</strong>
+              <span>
+                <a href="tel:8610085225" style="color:var(--orange);font-weight:800;text-decoration:none">86100 85225</a>
+                &nbsp;·&nbsp;
+                <a href="tel:9944979754" style="color:var(--orange);font-weight:800;text-decoration:none">99449 79754</a>
+              </span>
+            </div>
+          </div>
+          <div class="ci">
+            <div class="ci-ico">✉</div>
+            <div class="ci-body">
+              <strong>Email</strong>
+              <span><a href="mailto:devlittlestars@gmail.com" style="color:var(--blue);font-weight:700;text-decoration:none">devlittlestars@gmail.com</a></span>
+            </div>
+          </div>
+          <div class="ci">
+            <div class="ci-ico">🕐</div>
+            <div class="ci-body">
+              <strong>Working Hours</strong>
+              <span>Monday – Saturday: <strong style="color:var(--dark)">8:00 AM – 6:00 PM</strong><br>Sunday: Closed</span>
+            </div>
+          </div>
+          <div class="ci">
+            <div class="ci-ico">🚗</div>
+            <div class="ci-body">
+              <strong>How to Reach Us</strong>
+              <span>Near Thondamuthur Road. Easily accessible from Coimbatore city. Parking available on-site.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="enroll-box fi">
+        <h3>Enroll Your Little Star!</h3>
+        <p>Give your child the gift of joyful early learning. Reach out to us right now — your little star's bright future starts here!</p>
+        <div class="cta-label">📞 Call Us Directly</div>
+        <div class="call-btns">
+          <a href="tel:8610085225" class="call-btn cb-orange">
+            <span class="cb-icon">📞</span>
+            <span class="cb-text"><small>Primary Number</small>86100 85225</span>
+          </a>
+          <a href="tel:9944979754" class="call-btn cb-orange">
+            <span class="cb-icon">📞</span>
+            <span class="cb-text"><small>Alternate Number</small>99449 79754</span>
+          </a>
+        </div>
+        <hr class="divider">
+        <div class="cta-label">💬 Message Us</div>
+        <div class="call-btns">
+          <a href="https://wa.me/918610085225?text=Hi%21%20I%27m%20interested%20in%20enrolling%20my%20child%20at%20Dev%20Little%20Stars.%20Please%20share%20more%20details." class="call-btn cb-green" target="_blank" rel="noopener">
+            <span class="cb-icon">💬</span>
+            <span class="cb-text"><small>Chat on WhatsApp</small>WhatsApp Now →</span>
+          </a>
+          <a href="mailto:devlittlestars@gmail.com?subject=Enquiry%20-%20Admission%202025&body=Hello%2C%20I%20am%20interested%20in%20admitting%20my%20child%20to%20Dev%20Little%20Stars.%20Please%20share%20details." class="call-btn cb-blue">
+            <span class="cb-icon">✉</span>
+            <span class="cb-text"><small>Send an Email</small>devlittlestars@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<div class="map-wrap">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2!2d76.8600!3d11.0800!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba858df6b2a5a5b%3A0x0!2sKulathupalayam%2C+Thondamuthur%2C+Coimbatore!5e0!3m2!1sen!2sin!4v1000000000000"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dev Little Stars Location"></iframe>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="fb-brand">
+          <div class="fb-icon">⭐</div>
+          <div class="fb-name">Dev Little Stars<small>Play School & Daycare</small></div>
+        </div>
+        <p class="footer-desc">A warm, safe, and joyful playschool & daycare in Coimbatore where every little star shines and grows with love, play, and learning.</p>
+        <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+          <a href="tel:8610085225" style="background:var(--orange);color:#fff;padding:8px 16px;border-radius:50px;text-decoration:none;font-family:'Baloo 2',cursive;font-size:13px;font-weight:800">📞 Call Now</a>
+          <a href="https://wa.me/918610085225" style="background:#25D366;color:#fff;padding:8px 16px;border-radius:50px;text-decoration:none;font-family:'Baloo 2',cursive;font-size:13px;font-weight:800" target="_blank" rel="noopener">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="fc">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#methods">Learning Methods</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#vision">Our Vision</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="#programs">Play School (1.5–4 yrs)</a></li>
+          <li><a href="#programs">Daycare Services</a></li>
+          <li><a href="#programs">Special Tuition</a></li>
+          <li><a href="#programs">Creative Activities</a></li>
+          <li><a href="#programs">Social Skills Classes</a></li>
+        </ul>
+      </div>
+      <div class="fc fc-contact">
+        <h4>Contact Us</h4>
+        <a href="tel:8610085225">📞 86100 85225</a>
+        <a href="tel:9944979754">📞 99449 79754</a>
+        <a href="mailto:devlittlestars@gmail.com">✉ devlittlestars@gmail.com</a>
+        <a href="#contact">📍 Kulathupalayam, Thondamuthur,<br>&nbsp;&nbsp;&nbsp;&nbsp;Coimbatore – 641109</a>
+        <a href="#contact">🕐 Mon–Sat: 8 AM – 6 PM</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 <strong>Dev Little Stars</strong> Play School & Daycare · Coimbatore</span>
+      <span class="made">Made with ❤️ for every little star · <a href="mailto:devlittlestars@gmail.com">devlittlestars@gmail.com</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING CTA -->
+<div class="float-cta">
+  <a href="https://wa.me/918610085225?text=Hi%21%20I%27m%20interested%20in%20enrolling%20my%20child%20at%20Dev%20Little%20Stars." class="float-btn fb-wa" target="_blank" rel="noopener">
+    <span>💬</span>
+    <span class="float-label">WhatsApp Us</span>
+  </a>
+  <a href="tel:8610085225" class="float-btn fb-call">
+    <span>📞</span>
+    <span class="float-label">Call Now</span>
+  </a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
